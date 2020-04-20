@@ -17,15 +17,17 @@ end
 def output_array(array)
     count = 0
   while count < array.length do
-    puts array
+    puts array[count]
     count += 1
   end
 end
 
 def return_string_array(array)
     count = 0
+    new_array = []
   while count < array.length do
-    puts array
+    new_array.push[count].to_s
     count += 1
   end
+  new array
 end
