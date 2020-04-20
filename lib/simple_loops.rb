@@ -27,6 +27,5 @@ def return_string_array(array)
   while count < array.length do
     puts array
     count += 1
-    puts array
   end
 end
